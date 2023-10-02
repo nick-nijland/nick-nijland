@@ -1,1 +1,15 @@
 @import 'node_modules/spectre.css/src/spectre';
+
+.btn {
+  background: black;
+  border-color: black;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    background: white;
+    border-color: black;
+    color: black;
+  }
+}
