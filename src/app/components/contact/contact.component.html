@@ -1,0 +1,30 @@
+<section id="contact">
+  <div class="container">
+    <p class="section-label">
+      <span class="comment">// </span><span class="name">{{ 'contact.label' | translate }}</span>
+    </p>
+
+    <div class="content">
+      <p class="tagline">
+        <span class="prompt">$</span> {{ 'contact.tagline' | translate }}
+      </p>
+      <p class="sub">
+        {{ 'contact.sub' | translate }}
+      </p>
+
+      <div class="links">
+        @for (link of links; track link.label) {
+          <a [href]="link.href" class="link-item" target="_blank" rel="noopener">
+            <span>{{ link.label }}</span>
+            <span class="arrow">↗</span>
+          </a>
+        }
+      </div>
+
+      <p class="status">
+        <span class="dot"></span>
+        {{ 'contact.available' | translate }}
+      </p>
+    </div>
+  </div>
+</section>

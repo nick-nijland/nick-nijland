@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+main {
+  padding-top: 56px;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  font-size: 12px;
+
+  .prompt { color: var(--green); }
+  .colon { color: var(--text-muted); }
+  .path { color: var(--amber); }
+  .dollar { color: var(--text-muted); margin-left: 1px; }
+  .cursor {
+    color: var(--green);
+    animation: blink 1s step-end infinite;
+  }
+}

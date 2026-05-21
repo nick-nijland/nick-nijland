@@ -1,0 +1,42 @@
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <span class="title">nick&#64;nijland: ~</span>
+      </div>
+
+      <div class="terminal-body">
+        <p class="cmd-line">
+          <span class="prompt">$</span>
+          <span class="cmd">cat README.md</span>
+        </p>
+
+        <div class="readme">
+          <h1>Nick Nijland</h1>
+          <p class="role">
+            <span class="chevron">&gt;</span>
+            <span class="typed">{{ displayedRole() }}</span><span class="cursor">_</span>
+          </p>
+          <p class="bio">
+            {{ 'hero.bio1' | translate }}<br>
+            {{ 'hero.bio2' | translate }}
+          </p>
+          <div class="cta-row">
+            <a href="#experience" class="cta-btn primary">{{ 'hero.cta_experience' | translate }}</a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="cta-btn secondary">{{ 'hero.cta_github' | translate }}</a>
+          </div>
+        </div>
+
+        <p class="cmd-line idle">
+          <span class="prompt">$</span>
+          <span class="idle-cursor">_</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

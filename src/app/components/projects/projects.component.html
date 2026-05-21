@@ -1,0 +1,29 @@
+<section id="projects">
+  <div class="container">
+    <p class="section-label">
+      <span class="comment">// </span><span class="name">{{ 'projects.label' | translate }}</span>
+    </p>
+
+    <div class="grid">
+      @for (project of projects; track project.name) {
+        <div class="card">
+          <div class="card-header">
+            <span class="name">./{{ project.name }}</span>
+            <div class="card-links">
+              <a [href]="project.github" target="_blank" rel="noopener">github ↗</a>
+              @if (project.live) {
+                <a [href]="project.live" target="_blank" rel="noopener">live ↗</a>
+              }
+            </div>
+          </div>
+          <p class="description">{{ project.description }}</p>
+          <div class="tags">
+            @for (tag of project.tags; track tag) {
+              <span class="tag">{{ tag }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

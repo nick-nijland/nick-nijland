@@ -1,0 +1,25 @@
+<nav>
+  <div class="container">
+    <a class="logo" href="#">
+      <span class="user">nick</span><span class="at">&#64;</span><span class="host">nijland</span><span class="colon">:</span><span class="path">~</span>
+    </a>
+
+    <ul class="links" [class.open]="menuOpen()">
+      @for (link of links; track link.href) {
+        <li>
+          <a [href]="link.href" (click)="close()">{{ link.label | translate }}</a>
+        </li>
+      }
+    </ul>
+
+    <button class="lang-toggle" (click)="toggleLang()">
+      {{ currentLang() === 'en' ? 'NL' : 'EN' }}
+    </button>
+
+    <button class="hamburger" (click)="toggle()" [class.open]="menuOpen()" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>

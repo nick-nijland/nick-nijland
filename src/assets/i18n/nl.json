@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "experience": "ervaring",
+    "stack": "stack",
+    "projects": "projecten",
+    "contact": "contact"
+  },
+  "hero": {
+    "roles": ["Full-Stack Engineer", "Probleemoplosser", "Open Source Liefhebber"],
+    "bio1": "Placeholder engineer die placeholder dingen bouwt op placeholder schaal.",
+    "bio2": "Gepassioneerd over clean architecture, developer experience en goede koffie.",
+    "cta_experience": "./bekijk-ervaring",
+    "cta_github": "github ↗"
+  },
+  "experience": {
+    "label": "ervaring",
+    "present": "heden"
+  },
+  "stack": {
+    "label": "tech-stack",
+    "languages": "Talen",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "testing": "Testen",
+    "design": "Design",
+    "tooling": "Tools"
+  },
+  "projects": {
+    "label": "projecten"
+  },
+  "contact": {
+    "label": "contact",
+    "tagline": "Laten we samen iets bouwen.",
+    "sub": "Ik sta open voor nieuwe kansen. Stuur me een bericht en ik kom bij je terug.",
+    "available": "Beschikbaar voor werk"
+  }
+}
