@@ -6,6 +6,7 @@ interface Job {
   to: string;   // 'YYYY-MM' or 'present'
   role: string;
   company: string;
+  description?: string;
   bullets: string[];
   tags: string[];
 }
@@ -29,20 +30,31 @@ export class ExperienceComponent {
 
   jobs: Job[] = [
     {
-      from: '2025-01',
+      from: '2026-03',
+      to: 'present',
+      role: 'Front-end Developer (via Ilionx)',
+      company: 'Lifelines',
+      description: 'Lifelines is een biobank in Noord-Nederland die data en biologisch materiaal verzamelt van 167.000 deelnemers om wetenschappelijk onderzoek naar gezond ouder worden mogelijk te maken. Wij ontwikkelden een applicatie waarmee artsen patiëntgegevens zoals spirometrie- en ECG-uitslagen kunnen beoordelen en op basis daarvan een advies kunnen uitbrengen aan de huisarts of het ziekenhuis.',
+      bullets: [],
+      tags: ['Angular', 'TypeScript', 'RxJS', 'Signals', 'Angular Material', 'Claude Code'],
+    },
+    {
+      from: '2025-07',
       to: 'present',
       role: 'Full Stack Developer (via Ilionx)',
       company: 'Ministerie van Binnenlandse Zaken',
+      description: 'Voor de Wet Normering Topinkomens (WNT) hebben wij een applicatie ontwikkeld waarin instellingen jaarlijks hun verantwoording kunnen afleggen. Organisaties die onder de WNT vallen zijn verplicht de beloningen van hun topfunctionarissen openbaar te maken in hun jaarverslag. Via de applicatie kunnen zij gevoelige informatie afschermen door data in een PDF weg te lakken. Toezichthouders kunnen vervolgens deze verantwoordingen controleren en eventueel afkeuren.',
       bullets: [],
-      tags: ['Angular', 'RxJS', 'Java', 'Spring'],
+      tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Keycloak', 'Docker', 'Github', 'Claude Code'],
     },
     {
       from: '2025-02',
       to: 'present',
       role: 'Front-end Developer (via Ilionx)',
-      company: 'Ctgb',
+      company: 'College voor de toelating van gewasbeschermingsmiddelen en biociden',
+      description: 'Gewasbeschermingsmiddelen en biociden mogen in Nederland alleen worden verkocht en gebruikt als ze door het Ctgb of een andere Europese toelatingsautoriteit zijn toegelaten. Ik draag bij aan bestaande applicaties, waaronder de toelatingen databank en een applicatie om nieuwe aanvragen in te dienen.',
       bullets: [],
-      tags: [],
+      tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Playwright', 'Docker', 'Gitlab', 'Claude Code'],
     },
     {
       from: '2026-01',
@@ -56,15 +68,21 @@ export class ExperienceComponent {
     },
     {
       from: '2022-01',
-      to: '2025-01',
-      role: 'Front-end Developer (via Ilionx)',
+      to: '2025-06',
+      role: 'Full Stack Developer (via Ilionx)',
       company: 'Kadaster',
-      bullets: [
-        'Built and maintained Angular applications with interactive map features using OpenLayers',
-        'Wrote unit tests with Spectator and end-to-end automation with Robot Framework',
-        'Worked across the stack with Kotlin/Java Spring APIs alongside the front-end',
-      ],
+      description: 'Als full stack ontwikkelaar was ik vanaf het begin betrokken bij een applicatie waarmee gebruikers ruimtelijke regels en beleid per locatie kunnen raadplegen, inclusief documenten van overheden zoals omgevingsvisies en omgevingsplannen.',
+      bullets: [],
       tags: ['Angular', 'OpenLayers', 'RxJS', 'NgRx', 'TypeScript', 'Spectator', 'Robot Framework', 'Node.js', 'Kotlin', 'Java', 'Spring', 'SCSS'],
+    },
+    {
+      from: '2021-02',
+      to: '2022-03',
+      role: 'Front-end Developer (via Ilionx)',
+      company: 'KPN',
+      description: 'Binnen het Servicetools team werkte ik aan applicaties die support afdelingen ondersteunen, zoals een tool om WiFi te verbeteren en een tool om de orderstatus in te zien. Hiervoor maakten we gebruik van StencilJS, een compiler voor het bouwen van herbruikbare custom web components.',
+      bullets: [],
+      tags: ['StencilJS', 'TypeScript', 'Jest', 'Cypress', 'Jenkins', 'ng-Apimock', 'Custom Web Components', 'HTML5', 'SCSS'],
     },
     {
       from: '2017-01',

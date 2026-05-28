@@ -4,7 +4,6 @@ import { NavComponent } from './components/nav/nav.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
-import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 @Component({
@@ -15,7 +14,6 @@ import { ContactComponent } from './components/contact/contact.component';
     HeroComponent,
     ExperienceComponent,
     TechStackComponent,
-    ProjectsComponent,
     ContactComponent,
   ],
   templateUrl: './app.html',

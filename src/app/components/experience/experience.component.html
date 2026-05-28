@@ -6,6 +6,7 @@
 
     <div class="timeline">
       @for (job of jobs; track job.company; let last = $last) {
+        @if (job.description) {
         <div class="job">
           <div class="date">
             <span class="from">{{ formatDate(job.from) }}</span>
@@ -23,6 +24,9 @@
           <div class="details" [class.last]="last">
             <h3 class="role">{{ job.role }}</h3>
             <p class="company">&#64; {{ job.company }}</p>
+            @if (job.description) {
+              <p class="description">{{ job.description }}</p>
+            }
             @if (job.bullets.length > 0) {
               <ul class="bullets">
                 @for (bullet of job.bullets; track bullet) {
@@ -39,6 +43,7 @@
             }
           </div>
         </div>
+        }
       }
     </div>
   </div>

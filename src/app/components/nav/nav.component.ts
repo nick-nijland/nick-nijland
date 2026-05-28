@@ -17,7 +17,6 @@ export class NavComponent {
   links = [
     { label: 'nav.experience', href: '#experience' },
     { label: 'nav.stack',      href: '#stack' },
-    { label: 'nav.projects',   href: '#projects' },
     { label: 'nav.contact',    href: '#contact' },
   ];
 
