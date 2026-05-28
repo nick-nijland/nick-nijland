@@ -6,7 +6,7 @@
     "contact": "contact"
   },
   "hero": {
-    "roles": ["Full-Stack Engineer", "Probleemoplosser", "Open Source Liefhebber"],
+    "role": "Full Stack Developer",
     "bio1": "Placeholder engineer die placeholder dingen bouwt op placeholder schaal.",
     "bio2": "Gepassioneerd over clean architecture, developer experience en goede koffie.",
     "cta_experience": "./bekijk-ervaring",

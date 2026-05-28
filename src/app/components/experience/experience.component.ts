@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { TranslatePipe } from '@ngx-translate/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 interface Job {
-  from: string;
-  to: string;
+  from: string; // 'YYYY-MM'
+  to: string;   // 'YYYY-MM' or 'present'
   role: string;
   company: string;
   bullets: string[];
@@ -18,9 +18,18 @@ interface Job {
   styleUrl: './experience.component.scss',
 })
 export class ExperienceComponent {
+  private translate = inject(TranslateService);
+
+  formatDate(value: string): string {
+    const [year, month] = value.split('-').map(Number);
+    const date = new Date(year, month - 1, 1);
+    const locale = this.translate.currentLang === 'nl' ? 'nl-NL' : 'en-US';
+    return new Intl.DateTimeFormat(locale, { month: 'short', year: 'numeric' }).format(date);
+  }
+
   jobs: Job[] = [
     {
-      from: '2025',
+      from: '2025-01',
       to: 'present',
       role: 'Full Stack Developer (via Ilionx)',
       company: 'Ministerie van Binnenlandse Zaken',
@@ -28,7 +37,7 @@ export class ExperienceComponent {
       tags: ['Angular', 'RxJS', 'Java', 'Spring'],
     },
     {
-      from: '2025',
+      from: '2025-02',
       to: 'present',
       role: 'Front-end Developer (via Ilionx)',
       company: 'Ctgb',
@@ -36,8 +45,8 @@ export class ExperienceComponent {
       tags: [],
     },
     {
-      from: '2026',
-      to: '2026',
+      from: '2026-01',
+      to: '2026-03',
       role: 'Front-end Developer (via Ilionx)',
       company: 'De Nederlandsche Bank',
       bullets: [
@@ -46,8 +55,8 @@ export class ExperienceComponent {
       tags: ['React'],
     },
     {
-      from: '2022',
-      to: '2025',
+      from: '2022-01',
+      to: '2025-01',
       role: 'Front-end Developer (via Ilionx)',
       company: 'Kadaster',
       bullets: [
@@ -58,8 +67,8 @@ export class ExperienceComponent {
       tags: ['Angular', 'OpenLayers', 'RxJS', 'NgRx', 'TypeScript', 'Spectator', 'Robot Framework', 'Node.js', 'Kotlin', 'Java', 'Spring', 'SCSS'],
     },
     {
-      from: '2017',
-      to: '2021',
+      from: '2017-01',
+      to: '2021-12',
       role: 'Front-end Developer',
       company: 'ConnectingTheDots',
       bullets: [
@@ -71,8 +80,8 @@ export class ExperienceComponent {
       tags: ['Vue.js', 'StencilJS', 'TypeScript', 'JavaScript', 'PHP', 'Jest', 'Cypress', 'Jenkins', 'HTML5', 'SCSS'],
     },
     {
-      from: '2014',
-      to: '2017',
+      from: '2014-01',
+      to: '2017-01',
       role: 'Creative Designer',
       company: 'Wehkamp',
       bullets: [
@@ -83,8 +92,8 @@ export class ExperienceComponent {
       tags: ['HTML5', 'CSS', 'LESS', 'JavaScript', 'Sketch', 'Adobe CC'],
     },
     {
-      from: '2013',
-      to: '2016',
+      from: '2013-01',
+      to: '2016-12',
       role: 'Web & Graphic Designer',
       company: 'Oogappels',
       bullets: [
@@ -93,8 +102,8 @@ export class ExperienceComponent {
       tags: ['WordPress', 'Web Design', 'Graphic Design', 'Interface Design'],
     },
     {
-      from: '2012',
-      to: '2014',
+      from: '2012-01',
+      to: '2014-01',
       role: 'Web Designer',
       company: 'Qreativ BV',
       bullets: [
