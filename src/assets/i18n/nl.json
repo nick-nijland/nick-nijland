@@ -2,7 +2,6 @@
   "nav": {
     "experience": "ervaring",
     "stack": "stack",
-    "projects": "projecten",
     "contact": "contact"
   },
   "hero": {
@@ -14,7 +13,24 @@
   },
   "experience": {
     "label": "ervaring",
-    "present": "heden"
+    "present": "heden",
+    "jobs": {
+      "lifelines": {
+        "description": "Lifelines is een biobank in Noord-Nederland die data en biologisch materiaal verzamelt van 167.000 deelnemers om wetenschappelijk onderzoek naar gezond ouder worden mogelijk te maken. Wij ontwikkelden een applicatie waarmee artsen patiëntgegevens zoals spirometrie- en ECG-uitslagen kunnen beoordelen en op basis daarvan een advies kunnen uitbrengen aan de huisarts of het ziekenhuis."
+      },
+      "bzk": {
+        "description": "Voor de Wet Normering Topinkomens (WNT) hebben wij een applicatie ontwikkeld waarin instellingen jaarlijks hun verantwoording kunnen afleggen. Organisaties die onder de WNT vallen zijn verplicht de beloningen van hun topfunctionarissen openbaar te maken in hun jaarverslag. Via de applicatie kunnen zij gevoelige informatie afschermen door data in een PDF weg te lakken. Toezichthouders kunnen vervolgens deze verantwoordingen controleren en eventueel afkeuren."
+      },
+      "ctgb": {
+        "description": "Gewasbeschermingsmiddelen en biociden mogen in Nederland alleen worden verkocht en gebruikt als ze door het Ctgb of een andere Europese toelatingsautoriteit zijn toegelaten. Ik draag bij aan bestaande applicaties, waaronder de toelatingen databank en een applicatie om nieuwe aanvragen in te dienen."
+      },
+      "kadaster": {
+        "description": "Als full stack ontwikkelaar was ik vanaf het begin betrokken bij een applicatie waarmee gebruikers ruimtelijke regels en beleid per locatie kunnen raadplegen, inclusief documenten van overheden zoals omgevingsvisies en omgevingsplannen."
+      },
+      "kpn": {
+        "description": "Binnen het Servicetools team werkte ik aan applicaties die support afdelingen ondersteunen, zoals een tool om WiFi te verbeteren en een tool om de orderstatus in te zien. Hiervoor maakten we gebruik van StencilJS, een compiler voor het bouwen van herbruikbare custom web components."
+      }
+    }
   },
   "stack": {
     "label": "tech-stack",
@@ -24,9 +40,6 @@
     "testing": "Testen",
     "design": "Design",
     "tooling": "Tools"
-  },
-  "projects": {
-    "label": "projecten"
   },
   "contact": {
     "label": "contact",

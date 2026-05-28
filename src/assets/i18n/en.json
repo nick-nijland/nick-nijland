@@ -2,7 +2,6 @@
   "nav": {
     "experience": "experience",
     "stack": "stack",
-    "projects": "projects",
     "contact": "contact"
   },
   "hero": {
@@ -14,7 +13,24 @@
   },
   "experience": {
     "label": "experience",
-    "present": "present"
+    "present": "present",
+    "jobs": {
+      "lifelines": {
+        "description": "Lifelines is a biobank in the north of the Netherlands that collects data and biological material from 167,000 participants to enable scientific research on healthy ageing. We developed an application that allows doctors to assess patient data such as spirometry and ECG results, and provide advice to a GP or hospital based on their findings."
+      },
+      "bzk": {
+        "description": "For the Standards for Remuneration Act (WNT), we developed an application in which institutions can submit their annual accountability reports. Organisations subject to the WNT are required to publicly disclose the remuneration of their senior officials in their annual report. Through the application, they can redact sensitive information by blacking out data in a PDF. Supervisors can then review and, if necessary, reject these accountability reports."
+      },
+      "ctgb": {
+        "description": "Plant protection products and biocides may only be sold and used in the Netherlands if they have been authorised by the Ctgb or another European authorisation authority. I contribute to existing applications, including the authorisations database and an application for submitting new authorisation requests."
+      },
+      "kadaster": {
+        "description": "As a full stack developer, I was involved from the very beginning in an application that allows users to consult spatial rules and policies per location, including documents from government bodies such as provincial environmental visions and municipal environmental plans."
+      },
+      "kpn": {
+        "description": "Within the Servicetools team, I worked on applications that support customer service departments, such as a tool to improve WiFi and a tool to check order status. We used StencilJS, a compiler for building reusable custom web components."
+      }
+    }
   },
   "stack": {
     "label": "tech-stack",
@@ -24,9 +40,6 @@
     "testing": "Testing",
     "design": "Design",
     "tooling": "Tooling"
-  },
-  "projects": {
-    "label": "projects"
   },
   "contact": {
     "label": "contact",
