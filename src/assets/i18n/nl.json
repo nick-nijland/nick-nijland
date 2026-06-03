@@ -45,6 +45,22 @@
     "label": "contact",
     "tagline": "Laten we samen iets bouwen.",
     "sub": "Ik sta open voor nieuwe kansen. Stuur me een bericht en ik kom bij je terug.",
-    "available": "Beschikbaar voor werk"
+    "available": "Beschikbaar voor werk",
+    "success": "Bericht verzonden — ik neem snel contact op.",
+    "form": {
+      "name": "naam",
+      "name_placeholder": "Jan Jansen",
+      "phone": "telefoon",
+      "phone_placeholder": "+31 6 00000000",
+      "email": "e-mail",
+      "email_placeholder": "jan@voorbeeld.nl",
+      "message": "bericht",
+      "message_placeholder": "Wat heb je in gedachten?",
+      "submit": "verstuur bericht →",
+      "sending": "versturen...",
+      "required": "Dit veld is verplicht.",
+      "email_invalid": "Voer een geldig e-mailadres in.",
+      "send_error": "Er is iets misgegaan. Probeer het opnieuw."
+    }
   }
 }

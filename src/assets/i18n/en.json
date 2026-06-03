@@ -45,6 +45,22 @@
     "label": "contact",
     "tagline": "Let's build something together.",
     "sub": "I'm currently open to new opportunities. Drop me a message and I'll get back to you.",
-    "available": "Available for work"
+    "available": "Available for work",
+    "success": "Message sent — I'll get back to you shortly.",
+    "form": {
+      "name": "name",
+      "name_placeholder": "Jane Doe",
+      "phone": "phone",
+      "phone_placeholder": "+31 6 00000000",
+      "email": "email",
+      "email_placeholder": "jane@example.com",
+      "message": "message",
+      "message_placeholder": "What's on your mind?",
+      "submit": "send message →",
+      "sending": "sending...",
+      "required": "This field is required.",
+      "email_invalid": "Please enter a valid email address.",
+      "send_error": "Something went wrong. Please try again."
+    }
   }
 }

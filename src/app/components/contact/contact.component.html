@@ -21,6 +21,68 @@
         }
       </div>
 
+      @if (submitted) {
+        <div class="success">
+          <span class="dot"></span>
+          {{ 'contact.success' | translate }}
+        </div>
+      } @else {
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+          <div class="row">
+            <div class="field">
+              <label for="name">{{ 'contact.form.name' | translate }}</label>
+              <input id="name" type="text" formControlName="name"
+                [placeholder]="'contact.form.name_placeholder' | translate"
+                [class.invalid]="form.get('name')!.invalid && form.get('name')!.touched" />
+              @if (form.get('name')!.invalid && form.get('name')!.touched) {
+                <span class="error">{{ 'contact.form.required' | translate }}</span>
+              }
+            </div>
+
+            <div class="field">
+              <label for="phone">{{ 'contact.form.phone' | translate }}</label>
+              <input id="phone" type="tel" formControlName="phone"
+                [placeholder]="'contact.form.phone_placeholder' | translate"
+                [class.invalid]="form.get('phone')!.invalid && form.get('phone')!.touched" />
+              @if (form.get('phone')!.invalid && form.get('phone')!.touched) {
+                <span class="error">{{ 'contact.form.required' | translate }}</span>
+              }
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">{{ 'contact.form.email' | translate }}</label>
+            <input id="email" type="email" formControlName="email"
+              [placeholder]="'contact.form.email_placeholder' | translate"
+              [class.invalid]="form.get('email')!.invalid && form.get('email')!.touched" />
+            @if (form.get('email')!.errors?.['required'] && form.get('email')!.touched) {
+              <span class="error">{{ 'contact.form.required' | translate }}</span>
+            } @else if (form.get('email')!.errors?.['email'] && form.get('email')!.touched) {
+              <span class="error">{{ 'contact.form.email_invalid' | translate }}</span>
+            }
+          </div>
+
+          <div class="field">
+            <label for="message">{{ 'contact.form.message' | translate }}</label>
+            <textarea id="message" formControlName="message" rows="5"
+              [placeholder]="'contact.form.message_placeholder' | translate"
+              [class.invalid]="form.get('message')!.invalid && form.get('message')!.touched"></textarea>
+            @if (form.get('message')!.invalid && form.get('message')!.touched) {
+              <span class="error">{{ 'contact.form.required' | translate }}</span>
+            }
+          </div>
+
+          <div class="form-footer">
+            <button type="submit" [disabled]="loading">
+              {{ loading ? ('contact.form.sending' | translate) : ('contact.form.submit' | translate) }}
+            </button>
+            @if (error) {
+              <span class="error">{{ 'contact.form.send_error' | translate }}</span>
+            }
+          </div>
+        </form>
+      }
+
       <p class="status">
         <span class="dot"></span>
         {{ 'contact.available' | translate }}
