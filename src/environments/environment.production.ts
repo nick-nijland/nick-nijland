@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://api.nicknijland.nl',
+  apiUrl: 'https://nick-nijland.onrender.com',
 };
