@@ -86,27 +86,20 @@ export class ExperienceComponent {
     },
     {
       from: '2017-01',
-      to: '2021-12',
+      to: '2021-01',
       role: 'Front-end Developer',
       company: 'ConnectingTheDots',
-      bullets: [
-        'Developed reusable custom Web Components with StencilJS used across multiple projects',
-        'Built Vue.js applications and PHP back-ends in a full-stack capacity',
-        'Covered quality with unit tests (Jest), E2E tests (Cypress), and mock APIs (ng-Apimock)',
-        'Managed builds and deployments through Jenkins CI pipelines',
-      ],
-      tags: ['Vue.js', 'StencilJS', 'TypeScript', 'JavaScript', 'PHP', 'Jest', 'Cypress', 'Jenkins', 'HTML5', 'SCSS'],
+      description: 'experience.jobs.ctd.description',
+      bullets: [],
+      tags: ['Vue.js', 'JavaScript', 'PHP', 'Twig', 'HTML5', 'SCSS', 'LESS'],
     },
     {
-      from: '2014-01',
+      from: '2014-12',
       to: '2017-01',
       role: 'Creative Designer',
       company: 'Wehkamp',
-      bullets: [
-        'Designed and built landing pages and campaign layouts for one of the Netherlands\' largest e-commerce platforms',
-        'Ran A/B tests to optimise conversion across the site',
-        'Produced HTML5 online display campaigns and offline marketing assets',
-      ],
+      description: 'experience.jobs.wehkamp.description',
+      bullets: [],
       tags: ['HTML5', 'CSS', 'LESS', 'JavaScript', 'Sketch', 'Adobe CC'],
     },
     {
@@ -120,13 +113,12 @@ export class ExperienceComponent {
       tags: ['WordPress', 'Web Design', 'Graphic Design', 'Interface Design'],
     },
     {
-      from: '2012-01',
-      to: '2014-01',
+      from: '2012-02',
+      to: '2014-12',
       role: 'Web Designer',
       company: 'Qreativ BV',
-      bullets: [
-        'Designed and built websites for clients using print, web, and front-end tooling',
-      ],
+      description: 'experience.jobs.qreativ.description',
+      bullets: [],
       tags: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign'],
     },
   ];

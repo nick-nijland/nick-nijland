@@ -29,6 +29,15 @@
       },
       "kpn": {
         "description": "Binnen het Servicetools team werkte ik aan applicaties die support afdelingen ondersteunen, zoals een tool om WiFi te verbeteren en een tool om de orderstatus in te zien. Hiervoor maakten we gebruik van StencilJS, een compiler voor het bouwen van herbruikbare custom web components."
+      },
+      "ctd": {
+        "description": "Bij ConnectingTheDots verzorgde ik de front-end voor nieuwe en bestaande webshops. Ik ontwierp nieuwe webshops en nieuwe tools binnen bestaande webshops, en bouwde de front-end met HTML, SCSS, LESS en Vue.js."
+      },
+      "wehkamp": {
+        "description": "Bij Wehkamp ontwierp en bouwde ik pagina's, voerde ik A/B-tests uit binnen de website, bouwde ik HTML5 online display-campagnes en ontwierp ik on- en offline uitingen."
+      },
+      "qreativ": {
+        "description": "Ik begon bij Qreativ BV als stagiair in het eerste jaar en bleef er als webdesigner. Ik ontwierp en bouwde websites voor klanten, met print-, web- en front-end tooling."
       }
     }
   },

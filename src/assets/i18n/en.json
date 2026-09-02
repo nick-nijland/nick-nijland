@@ -29,6 +29,15 @@
       },
       "kpn": {
         "description": "Within the Servicetools team, I worked on applications that support customer service departments, such as a tool to improve WiFi and a tool to check order status. We used StencilJS, a compiler for building reusable custom web components."
+      },
+      "ctd": {
+        "description": "At ConnectingTheDots I handled the front-end for new and existing webshops. I designed new webshops as well as new tools within existing ones, and built out their front-ends with HTML, SCSS, LESS and Vue.js."
+      },
+      "wehkamp": {
+        "description": "At Wehkamp I designed and built pages, ran A/B tests within the website, built HTML5 online display campaigns, and designed on- and offline marketing materials."
+      },
+      "qreativ": {
+        "description": "I joined Qreativ BV as an intern in the first year and stayed on as a web designer, designing and building websites for clients across print, web and front-end tooling."
       }
     }
   },
