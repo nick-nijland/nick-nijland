@@ -12,6 +12,10 @@
       }
     </ul>
 
+    <button class="export-pdf" (click)="exportPdf()" [disabled]="exporting()">
+      {{ (exporting() ? 'nav.export_pdf_busy' : 'nav.export_pdf') | translate }}
+    </button>
+
     <button class="lang-toggle" (click)="toggleLang()">
       {{ currentLang() === 'en' ? 'NL' : 'EN' }}
     </button>

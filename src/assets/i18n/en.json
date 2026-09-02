@@ -2,7 +2,9 @@
   "nav": {
     "experience": "experience",
     "stack": "stack",
-    "contact": "contact"
+    "contact": "contact",
+    "export_pdf": "export to pdf",
+    "export_pdf_busy": "working…"
   },
   "hero": {
     "role": "Full Stack Developer",
