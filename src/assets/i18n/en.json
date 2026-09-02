@@ -8,8 +8,8 @@
   },
   "hero": {
     "role": "Full Stack Developer",
-    "bio1": "Placeholder engineer building placeholder things at placeholder scale.",
-    "bio2": "Passionate about clean architecture, developer experience, and good coffee.",
+    "bio1": "Full stack developer who started out as a designer. I care about software that feels right — from the code to the smallest detail in the interface.",
+    "bio2": "Passionate about clean architecture and developer experience.",
     "cta_experience": "./view-experience",
     "cta_github": "github ↗"
   },
