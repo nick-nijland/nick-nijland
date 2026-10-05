@@ -17,8 +17,8 @@
     "label": "ervaring",
     "present": "heden",
     "jobs": {
-      "lifelines": {
-        "description": "Lifelines is een biobank in Noord-Nederland die data en biologisch materiaal verzamelt van 167.000 deelnemers om wetenschappelijk onderzoek naar gezond ouder worden mogelijk te maken. Wij ontwikkelden een applicatie waarmee artsen patiëntgegevens zoals spirometrie- en ECG-uitslagen kunnen beoordelen en op basis daarvan een advies kunnen uitbrengen aan de huisarts of het ziekenhuis."
+      "cvte": {
+        "description": "Het College voor Toetsen en Examens (CvTE) is verantwoordelijk voor de kwaliteit en het niveau van de centrale examens in het voortgezet onderwijs en van de staatsexamens."
       },
       "bzk": {
         "description": "Voor de Wet Normering Topinkomens (WNT) hebben wij een applicatie ontwikkeld waarin instellingen jaarlijks hun verantwoording kunnen afleggen. Organisaties die onder de WNT vallen zijn verplicht de beloningen van hun topfunctionarissen openbaar te maken in hun jaarverslag. Via de applicatie kunnen zij gevoelige informatie afschermen door data in een PDF weg te lakken. Toezichthouders kunnen vervolgens deze verantwoordingen controleren en eventueel afkeuren."
@@ -45,7 +45,6 @@
   },
   "stack": {
     "label": "tech-stack",
-    "languages": "Talen",
     "frontend": "Frontend",
     "backend": "Backend",
     "testing": "Testen",

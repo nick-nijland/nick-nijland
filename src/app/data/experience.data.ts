@@ -10,13 +10,22 @@ export interface Job {
 
 export const jobs: Job[] = [
   {
-    from: '2026-03',
+    from: '2026-04',
+    to: 'present',
+    role: 'Full Stack Developer (via Ilionx)',
+    company: 'College voor Toetsen en Examens',
+    description: 'experience.jobs.cvte.description',
+    bullets: [],
+    tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Keycloak', 'Docker', 'Github', 'Claude Code'],
+  },
+  {
+    from: '2025-08',
     to: 'present',
     role: 'Front-end Developer (via Ilionx)',
-    company: 'Lifelines',
-    description: 'experience.jobs.lifelines.description',
+    company: 'College voor de toelating van gewasbeschermingsmiddelen en biociden',
+    description: 'experience.jobs.ctgb.description',
     bullets: [],
-    tags: ['Angular', 'TypeScript', 'RxJS', 'Signals', 'Angular Material', 'Claude Code'],
+    tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Playwright', 'Docker', 'Gitlab', 'Claude Code'],
   },
   {
     from: '2025-07',
@@ -26,15 +35,6 @@ export const jobs: Job[] = [
     description: 'experience.jobs.bzk.description',
     bullets: [],
     tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Keycloak', 'Docker', 'Github', 'Claude Code'],
-  },
-  {
-    from: '2025-02',
-    to: 'present',
-    role: 'Front-end Developer (via Ilionx)',
-    company: 'College voor de toelating van gewasbeschermingsmiddelen en biociden',
-    description: 'experience.jobs.ctgb.description',
-    bullets: [],
-    tags: ['Angular', 'TypeScript', 'RxJS', 'Java', 'Spring Boot', 'Playwright', 'Docker', 'Gitlab', 'Claude Code'],
   },
   {
     from: '2026-01',

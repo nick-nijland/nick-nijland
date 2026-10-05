@@ -17,8 +17,8 @@
     "label": "experience",
     "present": "present",
     "jobs": {
-      "lifelines": {
-        "description": "Lifelines is a biobank in the north of the Netherlands that collects data and biological material from 167,000 participants to enable scientific research on healthy ageing. We developed an application that allows doctors to assess patient data such as spirometry and ECG results, and provide advice to a GP or hospital based on their findings."
+      "cvte": {
+        "description": "The College voor Toetsen en Examens (CvTE) is responsible for the quality and level of the national final exams in Dutch secondary education and of the state exams."
       },
       "bzk": {
         "description": "For the Standards for Remuneration Act (WNT), we developed an application in which institutions can submit their annual accountability reports. Organisations subject to the WNT are required to publicly disclose the remuneration of their senior officials in their annual report. Through the application, they can redact sensitive information by blacking out data in a PDF. Supervisors can then review and, if necessary, reject these accountability reports."
@@ -45,7 +45,6 @@
   },
   "stack": {
     "label": "tech-stack",
-    "languages": "Languages",
     "frontend": "Frontend",
     "backend": "Backend",
     "testing": "Testing",
